@@ -1,0 +1,32 @@
+{
+  "name": "insert-adjacent-simple",
+  "version": "0.0.0",
+  "description": "Simple \"insertAdjacentHTML\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tee-talog/insert-adjacent-simple.git"
+  },
+  "keywords": [],
+  "author": "talog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tee-talog/insert-adjacent-simple/issues"
+  },
+  "homepage": "https://github.com/tee-talog/insert-adjacent-simple#readme",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "browserify": "^14.4.0",
+    "cross-env": "^5.0.5",
+    "envify": "^4.1.0",
+    "licensify": "^3.1.3",
+    "tsify": "^3.0.3",
+    "tslib": "^1.7.1",
+    "typescript": "^2.5.2",
+    "uglifyify": "^4.0.3"
+  }
+}
