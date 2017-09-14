@@ -12,7 +12,6 @@
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
 		"pretty": true,
-		"rootDir": "src/ts",
 		"strictNullChecks": true
 	},
 	"target": "es5",
