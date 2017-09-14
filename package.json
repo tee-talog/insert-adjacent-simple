@@ -2,16 +2,21 @@
   "name": "insert-adjacent-simple",
   "version": "0.0.0",
   "description": "Simple \"insertAdjacentHTML\"",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" :        "cross-env NODE_ENV=develop    browserify src/ts/index.ts --debug      -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > lib/index.js",
+    "production" : "cross-env NODE_ENV=production browserify src/ts/index.ts -p licensify -p [ tsify -p ./tsconfig.json ] -g [ uglifyify --compress ] -t envify > lib/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tee-talog/insert-adjacent-simple.git"
   },
-  "keywords": [],
-  "author": "talog",
+  "keywords": [
+    "javascript",
+    "insertAdjacentHTML",
+    "insertAdjacentElement"
+  ],
+  "author": "tee-talog",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tee-talog/insert-adjacent-simple/issues"
