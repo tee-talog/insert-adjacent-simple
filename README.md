@@ -1,2 +1,6 @@
 # insert-adjacent-simple
-Simple "insertAdjacentHTML"
+Simple "insertAdjacentHTML" and "insertAdjacentElement".
+
+# Example
+Open `example/example.html` in Browser.
+
