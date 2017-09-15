@@ -1,12 +1,9 @@
 {
   "name": "insert-adjacent-simple",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple \"insertAdjacentHTML\"",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "dev" :        "cross-env NODE_ENV=develop    browserify src/ts/index.ts --debug      -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > lib/index.js",
-    "production" : "cross-env NODE_ENV=production browserify src/ts/index.ts -p licensify -p [ tsify -p ./tsconfig.json ] -g [ uglifyify --compress ] -t envify > lib/index.js",
-    "example" :    "cross-env NODE_ENV=develop browserify src/ts/example.ts --debug -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > example/example.js"
   },
   "repository": {
     "type": "git",
@@ -25,14 +22,5 @@
   "homepage": "https://github.com/tee-talog/insert-adjacent-simple#readme",
   "private": true,
   "devDependencies": {
-    "@types/node": "^8.0.28",
-    "browserify": "^14.4.0",
-    "cross-env": "^5.0.5",
-    "envify": "^4.1.0",
-    "licensify": "^3.1.3",
-    "tsify": "^3.0.3",
-    "tslib": "^1.7.1",
-    "typescript": "^2.5.2",
-    "uglifyify": "^4.0.3"
   }
 }
