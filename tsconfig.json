@@ -4,9 +4,7 @@
 		"experimentalDecorators": true,
 		"importHelpers": true,
 		"jsx": "react",
-		"module": "commonjs",
 		"newLine": "LF",
-		"noEmitDecorators": true,
 		"noFallthroughCasesInSwitch": true,
 		"noImplicitAny": true,
 		"noImplicitReturns": true,
@@ -14,11 +12,8 @@
 		"pretty": true,
 		"strictNullChecks": true
 	},
-	"target": "es5",
+	"target": "es2015",
 	"exclude": [
 		"node_modules"
-	],
-	"filesGlob": [
-		"src/ts/**/*.ts"
 	]
 }
