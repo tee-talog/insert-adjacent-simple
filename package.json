@@ -4,8 +4,8 @@
   "description": "Simple \"insertAdjacentHTML\"",
   "main": "lib/index.js",
   "scripts": {
-    "lib" :        "tsc -p src/ts/tsconfig.json --outDir lib",
-    "example" :    "cross-env NODE_ENV=develop browserify src/ts/example.ts --debug -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > example/example.js"
+    "lib" :    "tsc -p src/ts/tsconfig.json --outDir lib",
+    "example": "browserify example/example.ts --debug -p [ tsify --inlineSourceMap -p example/tsconfig.json ] > example/example.js"
   },
   "repository": {
     "type": "git",
