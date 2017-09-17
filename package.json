@@ -4,7 +4,7 @@
   "description": "Simple \"insertAdjacentHTML\"",
   "main": "index.js",
   "scripts": {
-    "lib" :    "tsc -p src/ts/tsconfig.json --outDir lib",
+    "lib": "tsc -p src/ts/tsconfig.json --outDir lib",
     "example": "browserify example/example.ts --debug -p [ tsify --inlineSourceMap -p example/tsconfig.json ] > example/example.js"
   },
   "repository": {
@@ -24,5 +24,10 @@
   "homepage": "https://github.com/tee-talog/insert-adjacent-simple#readme",
   "private": true,
   "devDependencies": {
+    "@types/node": "^8.0.28",
+    "browserify": "^14.4.0",
+    "tsify": "^3.0.3",
+    "tslib": "^1.7.1",
+    "typescript": "^2.5.2"
   }
 }
