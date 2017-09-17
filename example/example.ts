@@ -1,4 +1,4 @@
-import * as insertHTML from "./index";
+import * as insertHTML from "../lib/index";
 
 const {
 	insertHTMLBeforeBegin,

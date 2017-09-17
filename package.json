@@ -4,9 +4,8 @@
   "description": "Simple \"insertAdjacentHTML\"",
   "main": "lib/index.js",
   "scripts": {
-    "dev" :        "cross-env NODE_ENV=develop    browserify src/ts/index.ts --debug      -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > lib/index.js",
-    "production" : "cross-env NODE_ENV=production browserify src/ts/index.ts -p licensify -p [ tsify -p ./tsconfig.json ] -g [ uglifyify --compress ] -t envify > lib/index.js",
-    "example" :    "cross-env NODE_ENV=develop browserify src/ts/example.ts --debug -p [ tsify --inlineSourceMap -p ./tsconfig.json ] > example/example.js"
+    "lib" :    "tsc -p src/ts/tsconfig.json --outDir lib",
+    "example": "browserify example/example.ts --debug -p [ tsify --inlineSourceMap -p example/tsconfig.json ] > example/example.js"
   },
   "repository": {
     "type": "git",
