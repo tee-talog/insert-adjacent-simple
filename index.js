@@ -1,26 +1,42 @@
-module.exports.insertHTMLBeforeBegin = function insertHTMLBeforeBegin(element, text) {
-	element.insertAdjacentHTML("beforebegin", text);
-};
-module.exports.insertHTMLAfterBegin = function insertHTMLAfterBegin(element, text) {
-	element.insertAdjacentHTML("afterbegin", text);
-};
-module.exports.insertHTMLBeforeEnd = function insertHTMLBeforeEnd(element, text) {
-	element.insertAdjacentHTML("beforeend", text);
-};
-module.exports.insertHTMLAfterEnd = function insertHTMLAfterEnd(element, text) {
-	element.insertAdjacentHTML("afterend", text);
-};
-
-module.exports.insertElementBeforeBegin = function insertElementBeforeBegin(targetElement, element) {
-	targetElement.insertAdjacentElement("beforebegin", element);
-};
-module.exports.insertElementAfterBegin = function insertElementAfterBegin(targetElement, element) {
-	targetElement.insertAdjacentElement("afterbegin", element);
-};
-module.exports.insertElementBeforeEnd = function insertElementBeforeEnd(targetElement, element) {
-	targetElement.insertAdjacentElement("beforeend", element);
-};
-module.exports.insertElementAfterEnd = function insertElementAfterEnd(targetElement, element) {
-	targetElement.insertAdjacentElement("afterend", element);
-};
-
+"use strict";
+exports.__esModule = true;
+function insertHTMLBeforeBegin(element, text) {
+    element.insertAdjacentHTML("beforebegin", text);
+}
+exports.insertHTMLBeforeBegin = insertHTMLBeforeBegin;
+;
+function insertHTMLAfterBegin(element, text) {
+    element.insertAdjacentHTML("afterbegin", text);
+}
+exports.insertHTMLAfterBegin = insertHTMLAfterBegin;
+;
+function insertHTMLBeforeEnd(element, text) {
+    element.insertAdjacentHTML("beforeend", text);
+}
+exports.insertHTMLBeforeEnd = insertHTMLBeforeEnd;
+;
+function insertHTMLAfterEnd(element, text) {
+    element.insertAdjacentHTML("afterend", text);
+}
+exports.insertHTMLAfterEnd = insertHTMLAfterEnd;
+;
+function insertElementBeforeBegin(targetElement, element) {
+    return targetElement.insertAdjacentElement("beforebegin", element);
+}
+exports.insertElementBeforeBegin = insertElementBeforeBegin;
+;
+function insertElementAfterBegin(targetElement, element) {
+    return targetElement.insertAdjacentElement("afterbegin", element);
+}
+exports.insertElementAfterBegin = insertElementAfterBegin;
+;
+function insertElementBeforeEnd(targetElement, element) {
+    return targetElement.insertAdjacentElement("beforeend", element);
+}
+exports.insertElementBeforeEnd = insertElementBeforeEnd;
+;
+function insertElementAfterEnd(targetElement, element) {
+    return targetElement.insertAdjacentElement("afterend", element);
+}
+exports.insertElementAfterEnd = insertElementAfterEnd;
+;
