@@ -1,6 +1,6 @@
 {
   "name": "insert-adjacent-simple",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Simple \"insertAdjacentHTML\"",
   "main": "lib/index.js",
   "scripts": {
