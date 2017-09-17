@@ -1,8 +1,8 @@
 {
   "name": "insert-adjacent-simple",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple \"insertAdjacentHTML\"",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "lib": "tsc -p src/ts/tsconfig.json --outDir lib",
     "example": "browserify example/example.ts --debug -p [ tsify --inlineSourceMap -p example/tsconfig.json ] > example/example.js"
