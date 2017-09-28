@@ -2,7 +2,7 @@
 Simple "insertAdjacentHTML" and "insertAdjacentElement".
 
 # Example
-Open `example/example.html` in Browser.
+Show `example/example.ts`.
 
 # Install
 ```
