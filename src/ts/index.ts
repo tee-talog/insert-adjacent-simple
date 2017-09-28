@@ -24,3 +24,16 @@ export function insertElementAfterEnd(targetElement: Element, element: Element):
 	return targetElement.insertAdjacentElement("afterend", element);
 };
 
+export function insertTextBeforeBegin(element: Element, text: string): void {
+	element.insertAdjacentText("beforebegin", text);
+};
+export function insertTextAfterBegin(element: Element, text: string): void {
+	element.insertAdjacentText("afterbegin", text);
+};
+export function insertTextBeforeEnd(element: Element, text: string): void {
+	element.insertAdjacentText("beforeend", text);
+};
+export function insertTextAfterEnd(element: Element, text: string): void {
+	element.insertAdjacentText("afterend", text);
+};
+

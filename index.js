@@ -40,3 +40,23 @@ function insertElementAfterEnd(targetElement, element) {
 }
 exports.insertElementAfterEnd = insertElementAfterEnd;
 ;
+function insertTextBeforeBegin(element, text) {
+    element.insertAdjacentText("beforebegin", text);
+}
+exports.insertTextBeforeBegin = insertTextBeforeBegin;
+;
+function insertTextAfterBegin(element, text) {
+    element.insertAdjacentText("afterbegin", text);
+}
+exports.insertTextAfterBegin = insertTextAfterBegin;
+;
+function insertTextBeforeEnd(element, text) {
+    element.insertAdjacentText("beforeend", text);
+}
+exports.insertTextBeforeEnd = insertTextBeforeEnd;
+;
+function insertTextAfterEnd(element, text) {
+    element.insertAdjacentText("afterend", text);
+}
+exports.insertTextAfterEnd = insertTextAfterEnd;
+;
