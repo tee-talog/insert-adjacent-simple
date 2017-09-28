@@ -1,6 +1,6 @@
 {
   "name": "insert-adjacent-simple",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Simple \"insertAdjacentHTML\" and \"insertAdjacentElement\".",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
   "keywords": [
     "javascript",
     "insertAdjacentHTML",
-    "insertAdjacentElement"
+    "insertAdjacentElement",
+    "insertAdjacentText"
   ],
   "author": "tee-talog",
   "license": "MIT",
