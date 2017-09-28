@@ -1,5 +1,5 @@
 # insert-adjacent-simple
-Simple "insertAdjacentHTML" and "insertAdjacentElement".
+Simple "insertAdjacentHTML", "insertAdjacentElement" and "insertAdjacentText".
 
 # Example
 Show `example/example.ts`.
