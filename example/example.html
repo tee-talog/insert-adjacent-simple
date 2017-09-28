@@ -3,8 +3,12 @@
 	<head>
 		<title>Example</title>
 		<style>
-			.frame, span {
+			span, .border1 {
 				border: 1px solid #000;
+				border-collapse: collapse;
+			}
+			.border2 {
+				border: 2px solid #000;
 				border-collapse: collapse;
 			}
 		</style>
@@ -12,13 +16,19 @@
 
 	<body>
 		<div>
-			<div id="elm1" class="frame">elm1</div>
+			<div id="elm1" class="border1">elm1</div>
 		</div>
 
 		<hr>
 
 		<div>
-			<div id="elm2" class="frame">elm2</div>
+			<div id="elm2" class="border1">elm2</div>
+		</div>
+
+		<hr>
+
+		<div>
+			<div id="elm3" class="border1">elm3</div>
 		</div>
 	</body>
 

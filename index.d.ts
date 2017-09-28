@@ -6,3 +6,7 @@ export declare function insertElementBeforeBegin(targetElement: Element, element
 export declare function insertElementAfterBegin(targetElement: Element, element: Element): Element | null;
 export declare function insertElementBeforeEnd(targetElement: Element, element: Element): Element | null;
 export declare function insertElementAfterEnd(targetElement: Element, element: Element): Element | null;
+export declare function insertTextBeforeBegin(element: Element, text: string): void;
+export declare function insertTextAfterBegin(element: Element, text: string): void;
+export declare function insertTextBeforeEnd(element: Element, text: string): void;
+export declare function insertTextAfterEnd(element: Element, text: string): void;
